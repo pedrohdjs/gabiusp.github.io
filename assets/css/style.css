@@ -1,0 +1,82 @@
+body { 
+    background: linear-gradient(to top left, var(--dark-beige), var(--light-beige)) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#main-header {
+    width: 92%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 1.5%;
+}
+
+#main-header h1 img{
+    height: 5.4em;
+    width: 6.75em;
+}
+
+#main-header a {
+    height: 2.3em;
+    width: 2.3em;
+}
+
+#main-header a img {
+    height: 2.3em;
+    transition: 0.5s;
+}
+
+#main-header a img:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+#main-section {
+    width: 90%;
+    margin-top: 0.5%;
+    margin-bottom: 9%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 45em;
+    border-radius: 40px;
+    background: linear-gradient(to bottom, var(--light-scarlet), var(--dark-scarlet)) no-repeat center center fixed;
+}
+
+#main-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background: linear-gradient(to left, var(--dark-scarlet), var(--light-scarlet)) no-repeat center center fixed;
+}
+
+#main-footer p {
+    padding-top: 0.6%;
+    font-size: 1em;
+    color: black;
+}
+
+#main-footer a img {
+    height: 1.8em;
+    transition: 0.3s;
+}
+
+#main-footer a img:hover {
+    transform: scale(1.06);
+    transition: 0.3s;
+}
