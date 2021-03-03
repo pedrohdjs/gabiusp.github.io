@@ -1,5 +1,5 @@
 body { 
-    background: linear-gradient(to top left, var(--dark-beige), var(--light-beige)) no-repeat center center fixed; 
+    background: linear-gradient(to top, var(--light-blue), var(--light-mint)) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,14 +12,15 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
-    margin-left: 4%;
-    margin-right: 4%;
-    padding-top: 1.5%;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: var(--light-pink);
 }
 
-#main-header h1 img{
-    height: 5.4em;
-    width: 6.75em;
+#main-header h1 {
+    color: var(--white);
 }
 
 #main-header a {
@@ -39,8 +40,8 @@ body {
 
 #main-section {
     width: 90%;
-    margin-top: 0.5%;
-    margin-bottom: 9%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     margin-left: 4%;
     margin-right: 4%;
     padding-left: 1%;
@@ -48,9 +49,25 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 45em;
     border-radius: 40px;
-    background: linear-gradient(to bottom, var(--light-scarlet), var(--dark-scarlet)) no-repeat center center fixed;
+    height: 45em;
+    background-color: var(--light-yellow);
+}
+
+#posts {
+    margin-top: 1%;
+    height: 5em;
+    width: 20em;
+    border-radius: 40px;
+    background-color: var(--light-pink);
+}
+
+#posts a {
+    display: flex;
+    flex-direction: row;
+    margin-top: 9%;
+    margin-left: 17%;
+    margin-right: 17%;
 }
 
 #main-footer {
@@ -62,13 +79,13 @@ body {
     padding-bottom: 1%;
     padding-left: 1%;
     padding-right: 1%;
-    background: linear-gradient(to left, var(--dark-scarlet), var(--light-scarlet)) no-repeat center center fixed;
+    background: linear-gradient(to right, var(--light-pink), var(--light-lilac)) no-repeat center center fixed;
 }
 
 #main-footer p {
     padding-top: 0.6%;
     font-size: 1em;
-    color: black;
+    color: var(--white);
 }
 
 #main-footer a img {
