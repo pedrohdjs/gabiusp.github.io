@@ -1,4 +1,27 @@
-* {
-    font-family: 'Raleway';
-    font-weight: 500;
+h1 {
+    font-family: "Gaegu", cursive;
+    font-weight: 700;
+    font-size: 2.3em;
+    color: var(--white);
+}
+
+.titles p {
+    font-family: "Gaegu", cursive;
+    font-weight: "400";
+    font-size: 1.3em;
+    color: var(--white);
+}
+
+.posts a {
+    font-family: "Gamja Flower";
+    font-weight: 400;
+    font-size: 1.15em;
+    color: var(--dark-lilac);
+}
+
+#main-footer ul {
+    font-family: "Gaegu";
+    font-weight: 700;
+    font-size: 1.2em;
+    color: var(--white);
 }

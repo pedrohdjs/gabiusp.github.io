@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     align-content: center;
     padding-top: 0%;
-    padding-bottom: 1.2%;
+    padding-bottom: 1%;
     padding-left: 4%;
     padding-right: 4%;
     background-color: var(--light-pink);
@@ -22,7 +22,6 @@ body {
 #main-header h1 {
     margin-left: 1%;
     margin-top: 2%;
-    color: var(--white);
 }
 
 #main-header a {
@@ -37,44 +36,65 @@ body {
 
 #main-header a img:hover {
     transition: 0.5s;
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 
 #main-section {
     width: 90%;
-    margin-top: 6%;
-    margin-bottom: 7%;
+    margin-top: 3%;
+    margin-bottom: 5%;
     margin-left: 4%;
     margin-right: 4%;
     padding-left: 1%;
     padding-right: 1%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     border-radius: 40px;
     height: 45em;
     background-color: var(--light-yellow);
 }
 
-#posts {
-    margin-top: 1%;
-    height: 5em;
+.sections {
+    height: 45em;
+    margin-left: 5.25%;
+}
+
+.sections > .titles {
+    display: flex;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    height: 2em;
     width: 20em;
     border-radius: 40px;
-    background-color: var(--light-pink);
+    background-color: var(--light-lilac);
 }
 
-#posts a {
+.sections > .titles p {
+    width: 20em;
+    margin-top: 0.8%;
+}
+
+.sections > .posts {
     display: flex;
-    flex-direction: row;
-    margin-top: 9%;
-    margin-left: 17%;
-    margin-right: 17%;
-    transition: 0.3s;
+    height: 5em;
+    width: 20em;
+    margin-bottom: 5%;
+    border-radius: 40px;
+    background-color: var(--light-pink);
+    transition: 0.5s;
 }
 
-#posts a:hover {
+.sections > .posts:hover {
     transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.sections > .posts a {
+    height: 2.9em;
+    width: 20em;
+    padding-top: 1.5em;
+    text-align: center;
     transition: 0.3s;
 }
 
@@ -91,18 +111,23 @@ body {
 
 #main-footer ul li {
     display: inline-block;
-    margin-top: 2%;
+    margin-top: 1.3%;
     margin-left: 0.5%;
     font-size: 1em;
-    color: var(--white);
 }
 
-#main-footer a img {
-    height: 5em;
+#main-footer > #social {
+    display: flex;
+    width: 10.5em;
+    justify-content: space-between;
+}
+
+#main-footer > #social a img {
+    height: 4.7em;
     transition: 0.5s;
 }
 
-#main-footer a img:hover {
-    transform: scale(1.2);
+#main-footer > #social a img:hover {
+    transform: scale(1.15);
     transition: 0.5s;
 }
