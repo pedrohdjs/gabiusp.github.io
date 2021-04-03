@@ -1,5 +1,5 @@
 body { 
-    background: linear-gradient(to top, var(--light-blue), var(--light-mint)) no-repeat center center fixed; 
+    background: linear-gradient(to top, var(--light-blue), var(--light-mint)) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -25,8 +25,8 @@ body {
 }
 
 #main-header a {
-    height: 2.3em;
-    width: 2.3em;
+    height: 2.2em;
+    width: 2.2em;
 }
 
 #main-header a img {
@@ -41,22 +41,30 @@ body {
 
 #main-section {
     width: 90%;
-    margin-top: 3%;
-    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 8%;
     margin-left: 4%;
     margin-right: 4%;
     padding-left: 1%;
     padding-right: 1%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     border-radius: 40px;
-    height: 45em;
+    height: 87%;
     background-color: var(--light-yellow);
 }
 
+.each-section {
+    display: flex;
+    justify-content: center;
+}
+
 .sections {
-    height: 45em;
-    margin-left: 5.25%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    padding-bottom: 10%;
 }
 
 .sections > .titles {
@@ -130,4 +138,78 @@ body {
 #main-footer > #social a img:hover {
     transform: scale(1.15);
     transition: 0.5s;
+}
+
+@media screen and (max-width: 1100px) {
+    #main-section {
+        flex-direction: column;
+    }
+
+    .sections {
+        padding-bottom: 0%;
+    }
+
+    .sections > .titles {
+        width: 17em;
+    }
+
+    .sections > .posts {
+        height: 3em;
+        width: 17em;
+    }
+
+    .sections > .posts a {
+        padding-top: 0.7em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    #main-footer ul {
+        font-size: 1em;
+    }
+
+    #main-header a {
+        height: 3em;
+        width: 3em;
+    }
+
+    #main-header a img {
+        height: 3.5em;
+    }
+    
+    #main-footer > #social a img {
+        height: 3.5em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sections > .titles {
+        width: 17em;
+    }
+
+    .sections > .posts {
+        height: 3em;
+        width: 17em;
+    }
+
+    .sections > .posts a {
+        padding-top: 0.7em;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1100px) {
+    .sections > .titles {
+        width: 20em;
+    }
+
+    .sections > .posts {
+        height: 5em;
+        width: 20em;
+    }
+
+    .sections > .posts a {
+        padding-top: 1.5em;
+    }
 }
