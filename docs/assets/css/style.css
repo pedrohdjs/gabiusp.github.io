@@ -118,12 +118,12 @@ body {
 
 #main-footer > #social {
     display: flex;
-    width: 10.5em;
+    width: 15em;
     justify-content: space-between;
 }
 
 #main-footer > #social a img {
-    height: 4.7em;
+    height: 4.5em;
     transition: 0.5s;
 }
 
