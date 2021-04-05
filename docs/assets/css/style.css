@@ -162,6 +162,10 @@ body {
         padding-top: 0.7em;
     }
 
+    .sections > .posts:hover {
+        transform: none;
+    }
+
     h1 {
         font-size: 2em;
     }
@@ -178,9 +182,17 @@ body {
     #main-header a img {
         height: 3.5em;
     }
+
+    #main-header a img:hover {
+        transform: none;
+    }
     
     #main-footer > #social a img {
         height: 3.5em;
+    }
+
+    #main-footer > #social a img:hover {
+        transform: none;
     }
 }
 
